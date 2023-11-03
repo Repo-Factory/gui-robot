@@ -17,7 +17,7 @@ class Vision(QtWidgets.QDialog):
         # self.video_thread.start()
         # self.video_thread.ImageUpdate.connect(self.ImageUpdateSlot)
         
-        uic.loadUi('ui/vision.ui', self)  # Load the .ui file for the new window
+        uic.loadUi('../ui/vision.ui', self)  # Load the .ui file for the new window
         
         # self.stop_button.clicked.connect(self.CancelFeed) Probably not needed
 
